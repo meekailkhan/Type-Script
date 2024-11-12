@@ -16,3 +16,5 @@ w = {
 if (typeof w === 'object' && w !== null) {
     w.runANonExistenMethod();
 }
+
+
