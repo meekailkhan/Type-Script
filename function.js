@@ -47,3 +47,7 @@ function addition(num1, num2) {
 }
 console.log(addition(1, 2, 3, 4, 5, 6, 7, 8, 9)); // 45
 console.log(addition(1, 2, 3, 4, 5, 6, 7, 5, 2, 5)); // 40
+var negateFunction = function (value) { return value * -1; };
+console.log(negateFunction(10)); // -10
+console.log(negateFunction(8)); // -8
+console.log(negateFunction(-15)); // 15

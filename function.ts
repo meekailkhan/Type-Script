@@ -58,3 +58,13 @@ function addition(num1:number, num2:number, ...rest:number[]){
 
 console.log(addition(1,2,3,4,5,6,7,8,9)) // 45
 console.log(addition(1,2,3,4,5,6,7,5,2,5)) // 40
+
+
+// type alias
+type Negate = (value : number) => number;
+
+const negateFunction:Negate = (value) => value * -1
+
+console.log(negateFunction(10)) // -10
+console.log(negateFunction(8)) // -8
+console.log(negateFunction(-15)) // 15
