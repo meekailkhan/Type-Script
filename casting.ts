@@ -10,4 +10,4 @@ console.log((y as string).length) // undefined becuase number dont have length
 
 // casting with <>
 var a:unknown = "efghi";
-console.log((<string>a).length) // 5
+console.log((<string>a).length) // 5    
