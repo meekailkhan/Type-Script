@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let firstName = "hello";
 let secondName = "world";
 console.log(firstName);
