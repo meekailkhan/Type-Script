@@ -15,3 +15,4 @@ function friends(friends) {
     // they both are same
 }
 friends({ first: 'arbaaz' });
+friends({ first: 'arbaaz' });

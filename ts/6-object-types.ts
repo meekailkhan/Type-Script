@@ -20,3 +20,4 @@ function friends(friends : { first : string , second? : string}){
 }
 
 friends({first : 'arbaaz'});
+friends({first : 'arbaaz'});
